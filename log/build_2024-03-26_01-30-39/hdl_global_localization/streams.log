@@ -1,0 +1,408 @@
+[0.009s] Invoking command in '/root/workspace/src/build/hdl_global_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/workspace/src/hdl_global_localization -DCMAKE_INSTALL_PREFIX=/root/workspace/src/install/hdl_global_localization
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.137s] -- The CXX compiler identification is GNU 9.4.0
+[0.141s] -- Check for working C compiler: /usr/bin/cc
+[0.179s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.180s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.219s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.261s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.311s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.324s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.410s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.478s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.495s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.560s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.599s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.600s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.601s] -- Looking for pthread.h
+[0.641s] -- Looking for pthread.h - found
+[0.641s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.677s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.678s] -- Looking for pthread_create in pthreads
+[0.707s] -- Looking for pthread_create in pthreads - not found
+[0.707s] -- Looking for pthread_create in pthread
+[0.740s] -- Looking for pthread_create in pthread - found
+[0.741s] -- Found Threads: TRUE  
+[0.825s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.826s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[1.039s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.040s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.263s] -- Checking for module 'eigen3'
+[1.270s] --   Found eigen3, version 3.3.7
+[1.289s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.289s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.318s] -- Checking for module 'flann'
+[1.328s] --   Found flann, version 1.9.1
+[1.348s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.375s] -- The imported target "vtkParseOGLExt" references the file
+[1.375s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.376s] but this file does not exist.  Possible reasons include:
+[1.376s] * The file was deleted, renamed, or moved to another location.
+[1.376s] * An install or uninstall procedure did not complete successfully.
+[1.376s] * The installation package was faulty and contained
+[1.376s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.376s] but not all the files it references.
+[1.376s] 
+[1.376s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.376s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.376s] but this file does not exist.  Possible reasons include:
+[1.376s] * The file was deleted, renamed, or moved to another location.
+[1.376s] * An install or uninstall procedure did not complete successfully.
+[1.376s] * The installation package was faulty and contained
+[1.376s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.377s] but not all the files it references.
+[1.377s] 
+[1.377s] -- The imported target "vtk" references the file
+[1.377s]    "/usr/bin/vtk"
+[1.377s] but this file does not exist.  Possible reasons include:
+[1.377s] * The file was deleted, renamed, or moved to another location.
+[1.377s] * An install or uninstall procedure did not complete successfully.
+[1.377s] * The installation package was faulty and contained
+[1.377s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.377s] but not all the files it references.
+[1.377s] 
+[1.377s] -- The imported target "pvtk" references the file
+[1.377s]    "/usr/bin/pvtk"
+[1.377s] but this file does not exist.  Possible reasons include:
+[1.377s] * The file was deleted, renamed, or moved to another location.
+[1.377s] * An install or uninstall procedure did not complete successfully.
+[1.377s] * The installation package was faulty and contained
+[1.377s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.377s] but not all the files it references.
+[1.378s] 
+[1.386s] -- Checking for module 'libusb-1.0'
+[1.388s] --   No package 'libusb-1.0' found
+[1.389s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.389s] -- OpenNI disabled because libusb-1.0 not found.
+[1.391s] -- Checking for module 'libusb-1.0'
+[1.393s] --   No package 'libusb-1.0' found
+[1.395s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.395s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.402s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[1.404s] -- Checking for module 'libusb-1.0'
+[1.406s] --   No package 'libusb-1.0' found
+[1.407s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.407s] -- OpenNI disabled because libusb-1.0 not found.
+[1.410s] -- Checking for module 'libusb-1.0'
+[1.412s] --   No package 'libusb-1.0' found
+[1.413s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.413s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.424s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.424s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.426s] -- Checking for module 'libusb-1.0'
+[1.428s] --   No package 'libusb-1.0' found
+[1.429s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.429s] -- OpenNI disabled because libusb-1.0 not found.
+[1.435s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.436s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.436s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.437s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.437s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.438s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.438s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.438s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.439s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.439s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.440s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.441s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.441s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.442s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.442s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.443s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.444s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.444s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.445s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.445s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.446s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.446s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.447s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.447s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.600s] -- Found OpenCV: /usr (found version "4.2.0") 
+[1.735s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.786s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.786s] -- Found OpenMP: TRUE (found version "4.5")  
+[1.799s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.910s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.101s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.185s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.186s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.201s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.201s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.201s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.201s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.213s] -- Found PythonExtra: .so  
+[2.268s] -- Configuring done
+[2.362s] -- Generating done
+[2.366s] -- Build files have been written to: /root/workspace/src/build/hdl_global_localization
+[2.381s] Invoked command in '/root/workspace/src/build/hdl_global_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/workspace/src/hdl_global_localization -DCMAKE_INSTALL_PREFIX=/root/workspace/src/install/hdl_global_localization
+[2.382s] Invoking command in '/root/workspace/src/build/hdl_global_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/workspace/src/build/hdl_global_localization -- -j20 -l20
+[2.425s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.425s] [35m[1mScanning dependencies of target hdl_global_localization__cpp[0m
+[2.425s] [35m[1mScanning dependencies of target hdl_global_localization_node[0m
+[2.435s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.491s] [  5%] [32mBuilding CXX object CMakeFiles/hdl_global_localization_node.dir/rclcpp_components/node_main_hdl_global_localization_node.cpp.o[0m
+[2.734s] [  5%] Built target hdl_global_localization__cpp
+[2.745s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.745s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.746s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.754s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_generator_c[0m
+[2.772s] [ 16%] [32mBuilding C object CMakeFiles/hdl_global_localization__rosidl_generator_c.dir/rosidl_generator_c/hdl_global_localization/srv/detail/query_global_localization__functions.c.o[0m
+[2.772s] [ 16%] [32mBuilding C object CMakeFiles/hdl_global_localization__rosidl_generator_c.dir/rosidl_generator_c/hdl_global_localization/srv/detail/set_global_localization_engine__functions.c.o[0m
+[2.772s] [ 16%] [32mBuilding C object CMakeFiles/hdl_global_localization__rosidl_generator_c.dir/rosidl_generator_c/hdl_global_localization/srv/detail/set_global_map__functions.c.o[0m
+[2.827s] [ 17%] [32m[1mLinking C shared library libhdl_global_localization__rosidl_generator_c.so[0m
+[2.865s] [ 17%] Built target hdl_global_localization__rosidl_generator_c
+[2.874s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.875s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.976s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_typesupport_cpp[0m
+[2.991s] [ 23%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hdl_global_localization/srv/set_global_localization_engine__type_support.cpp.o[0m
+[2.991s] [ 25%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hdl_global_localization/srv/query_global_localization__type_support.cpp.o[0m
+[2.992s] [ 26%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hdl_global_localization/srv/set_global_map__type_support.cpp.o[0m
+[3.002s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_typesupport_introspection_cpp[0m
+[3.017s] [ 30%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hdl_global_localization/srv/detail/set_global_localization_engine__type_support.cpp.o[0m
+[3.017s] [ 30%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hdl_global_localization/srv/detail/query_global_localization__type_support.cpp.o[0m
+[3.018s] [ 32%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hdl_global_localization/srv/detail/set_global_map__type_support.cpp.o[0m
+[3.048s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_typesupport_fastrtps_cpp[0m
+[3.067s] [ 35%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hdl_global_localization/srv/detail/dds_fastrtps/set_global_map__type_support.cpp.o[0m
+[3.068s] [ 35%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hdl_global_localization/srv/detail/dds_fastrtps/query_global_localization__type_support.cpp.o[0m
+[3.068s] [ 37%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hdl_global_localization/srv/detail/dds_fastrtps/set_global_localization_engine__type_support.cpp.o[0m
+[3.108s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_typesupport_c[0m
+[3.124s] [ 39%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/hdl_global_localization/srv/set_global_map__type_support.cpp.o[0m
+[3.136s] [ 41%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/hdl_global_localization/srv/set_global_localization_engine__type_support.cpp.o[0m
+[3.145s] [ 42%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/hdl_global_localization/srv/query_global_localization__type_support.cpp.o[0m
+[3.174s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_typesupport_introspection_c[0m
+[3.189s] [ 44%] [32m[1mLinking CXX shared library libhdl_global_localization__rosidl_typesupport_c.so[0m
+[3.197s] [ 48%] [32mBuilding C object CMakeFiles/hdl_global_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hdl_global_localization/srv/detail/set_global_map__type_support.c.o[0m
+[3.197s] [ 48%] [32mBuilding C object CMakeFiles/hdl_global_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hdl_global_localization/srv/detail/set_global_localization_engine__type_support.c.o[0m
+[3.198s] [ 50%] [32m[1mLinking CXX shared library libhdl_global_localization__rosidl_typesupport_cpp.so[0m
+[3.205s] [ 51%] [32mBuilding C object CMakeFiles/hdl_global_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hdl_global_localization/srv/detail/query_global_localization__type_support.c.o[0m
+[3.229s] [ 51%] Built target hdl_global_localization__rosidl_typesupport_cpp
+[3.230s] [ 51%] Built target hdl_global_localization__rosidl_typesupport_c
+[3.237s] [ 53%] [32m[1mLinking C shared library libhdl_global_localization__rosidl_typesupport_introspection_c.so[0m
+[3.263s] [ 53%] Built target hdl_global_localization__rosidl_typesupport_introspection_c
+[3.319s] [ 55%] [32m[1mLinking CXX shared library libhdl_global_localization__rosidl_typesupport_introspection_cpp.so[0m
+[3.378s] [ 55%] Built target hdl_global_localization__rosidl_typesupport_introspection_cpp
+[3.399s] [ 57%] [32m[1mLinking CXX shared library libhdl_global_localization__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.453s] [ 57%] Built target hdl_global_localization__rosidl_typesupport_fastrtps_cpp
+[3.460s] [ 58%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.619s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_typesupport_fastrtps_c[0m
+[3.634s] [ 60%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hdl_global_localization/srv/detail/set_global_localization_engine__type_support_c.cpp.o[0m
+[3.634s] [ 62%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hdl_global_localization/srv/detail/set_global_map__type_support_c.cpp.o[0m
+[3.634s] [ 64%] [32mBuilding CXX object CMakeFiles/hdl_global_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hdl_global_localization/srv/detail/query_global_localization__type_support_c.cpp.o[0m
+[3.878s] [ 66%] [32m[1mLinking CXX executable hdl_global_localization_node[0m
+[3.912s] [ 67%] [32m[1mLinking CXX shared library libhdl_global_localization__rosidl_typesupport_fastrtps_c.so[0m
+[3.955s] [ 67%] Built target hdl_global_localization_node
+[3.966s] [ 67%] Built target hdl_global_localization__rosidl_typesupport_fastrtps_c
+[3.972s] [35m[1mScanning dependencies of target hdl_global_localization[0m
+[3.979s] [ 67%] Built target hdl_global_localization
+[3.985s] [35m[1mScanning dependencies of target hdl_global_localization__py[0m
+[3.988s] [35m[1mScanning dependencies of target hdl_global_localization_lib[0m
+[3.991s] [ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.112s] [ 71%] [32mBuilding CXX object CMakeFiles/hdl_global_localization_lib.dir/src/hdl_global_localization/bbs/bbs_localization.cpp.o[0m
+[4.114s] [ 73%] [32mBuilding CXX object CMakeFiles/hdl_global_localization_lib.dir/src/hdl_global_localization/ransac/voxelset.cpp.o[0m
+[4.115s] [ 75%] [32mBuilding CXX object CMakeFiles/hdl_global_localization_lib.dir/src/hdl_global_localization/ransac/ransac_pose_estimation.cpp.o[0m
+[4.116s] [ 76%] [32mBuilding CXX object CMakeFiles/hdl_global_localization_lib.dir/src/hdl_global_localization_node.cpp.o[0m
+[4.117s] [ 80%] [32mBuilding CXX object CMakeFiles/hdl_global_localization_lib.dir/src/hdl_global_localization/engines/global_localization_fpfh_ransac.cpp.o[0m
+[4.117s] [ 80%] [32mBuilding CXX object CMakeFiles/hdl_global_localization_lib.dir/src/hdl_global_localization/engines/global_localization_bbs.cpp.o[0m
+[4.559s] [ 80%] Built target hdl_global_localization__py
+[4.568s] [35m[1mScanning dependencies of target hdl_global_localization__python[0m
+[4.597s] [ 82%] [32mBuilding C object CMakeFiles/hdl_global_localization__python.dir/rosidl_generator_py/hdl_global_localization/srv/_set_global_localization_engine_s.c.o[0m
+[4.597s] [ 83%] [32mBuilding C object CMakeFiles/hdl_global_localization__python.dir/rosidl_generator_py/hdl_global_localization/srv/_query_global_localization_s.c.o[0m
+[4.597s] [ 85%] [32mBuilding C object CMakeFiles/hdl_global_localization__python.dir/rosidl_generator_py/hdl_global_localization/srv/_set_global_map_s.c.o[0m
+[4.694s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/hdl_global_localization/libhdl_global_localization__python.so[0m
+[4.735s] [ 87%] Built target hdl_global_localization__python
+[4.744s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_typesupport_c__pyext[0m
+[4.744s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_typesupport_introspection_c__pyext[0m
+[4.744s] [35m[1mScanning dependencies of target hdl_global_localization__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.760s] [ 89%] [32mBuilding C object CMakeFiles/hdl_global_localization__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hdl_global_localization/_hdl_global_localization_s.ep.rosidl_typesupport_c.c.o[0m
+[4.761s] [ 91%] [32mBuilding C object CMakeFiles/hdl_global_localization__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hdl_global_localization/_hdl_global_localization_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.761s] [ 92%] [32mBuilding C object CMakeFiles/hdl_global_localization__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hdl_global_localization/_hdl_global_localization_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.839s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/hdl_global_localization/hdl_global_localization_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.841s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/hdl_global_localization/hdl_global_localization_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.847s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/hdl_global_localization/hdl_global_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.875s] [ 98%] Built target hdl_global_localization__rosidl_typesupport_c__pyext
+[4.878s] [ 98%] Built target hdl_global_localization__rosidl_typesupport_introspection_c__pyext
+[4.912s] [ 98%] Built target hdl_global_localization__rosidl_typesupport_fastrtps_c__pyext
+[11.230s] [100%] [32m[1mLinking CXX shared library libhdl_global_localization_lib.so[0m
+[12.855s] [100%] Built target hdl_global_localization_lib
+[12.862s] Invoked command in '/root/workspace/src/build/hdl_global_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/workspace/src/build/hdl_global_localization -- -j20 -l20
+[12.913s] Invoking command in '/root/workspace/src/build/hdl_global_localization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/workspace/src/build/hdl_global_localization
+[12.918s] -- Install configuration: ""
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/ament_index/resource_index/rosidl_interfaces/hdl_global_localization
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/query_global_localization.h
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/set_global_map.h
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/set_global_localization_engine.h
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__type_support.h
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__struct.h
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__functions.h
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__functions.h
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__struct.h
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__type_support.h
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__functions.c
+[12.918s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__functions.c
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__functions.c
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__struct.h
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__functions.h
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__type_support.h
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg/rosidl_generator_c__visibility_control.h
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/environment/library_path.sh
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/environment/library_path.dsv
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_generator_c.so
+[12.919s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_generator_c.so" to ""
+[12.919s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization
+[12.919s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv
+[12.919s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__rosidl_typesupport_fastrtps_c.h
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__rosidl_typesupport_fastrtps_c.h
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__rosidl_typesupport_fastrtps_c.h
+[12.919s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_fastrtps_c.so
+[12.919s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_fastrtps_c.so" to ""
+[12.919s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization
+[12.919s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv
+[12.919s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__rosidl_typesupport_fastrtps_cpp.hpp
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__rosidl_typesupport_fastrtps_cpp.hpp
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__rosidl_typesupport_fastrtps_cpp.hpp
+[12.919s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/dds_fastrtps
+[12.919s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_fastrtps_cpp.so
+[12.920s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.920s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization
+[12.920s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv
+[12.920s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__rosidl_typesupport_introspection_c.h
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__rosidl_typesupport_introspection_c.h
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__type_support.c
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__rosidl_typesupport_introspection_c.h
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__type_support.c
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__type_support.c
+[12.920s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_introspection_c.so
+[12.920s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_introspection_c.so" to ""
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_c.so
+[12.920s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_c.so" to ""
+[12.920s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization
+[12.920s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv
+[12.920s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/query_global_localization.hpp
+[12.921s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__type_support.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__traits.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__builder.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__builder.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__traits.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__builder.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__struct.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__struct.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__traits.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__struct.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__type_support.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__type_support.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/set_global_localization_engine.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/set_global_map.hpp
+[12.921s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.921s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization
+[12.921s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv
+[12.921s] -- Up-to-date: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__type_support.cpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__rosidl_typesupport_introspection_cpp.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__type_support.cpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/query_global_localization__rosidl_typesupport_introspection_cpp.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_map__rosidl_typesupport_introspection_cpp.hpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/include/hdl_global_localization/srv/detail/set_global_localization_engine__type_support.cpp
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_introspection_cpp.so
+[12.921s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_introspection_cpp.so" to ""
+[12.921s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_cpp.so
+[12.922s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__rosidl_typesupport_cpp.so" to ""
+[12.922s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/environment/pythonpath.sh
+[12.922s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/environment/pythonpath.dsv
+[12.922s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/__init__.py
+[12.937s] Compiling '/root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/__init__.py'...
+[12.939s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/srv
+[12.939s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/srv/_query_global_localization.py
+[12.939s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/srv/_query_global_localization_s.c
+[12.940s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/srv/_set_global_localization_engine_s.c
+[12.940s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/srv/__init__.py
+[12.940s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/srv/_set_global_localization_engine.py
+[12.940s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/srv/_set_global_map_s.c
+[12.940s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/srv/_set_global_map.py
+[12.940s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/hdl_global_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[12.940s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/hdl_global_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.940s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/hdl_global_localization_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[12.940s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/hdl_global_localization_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.940s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/hdl_global_localization_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[12.941s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/python3.8/site-packages/hdl_global_localization/hdl_global_localization_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__python.so
+[12.941s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization__python.so" to ""
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/SetGlobalLocalizationEngine.idl
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/SetGlobalMap.idl
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/QueryGlobalLocalization.idl
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/SetGlobalLocalizationEngine.srv
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/SetGlobalLocalizationEngine_Request.msg
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/SetGlobalLocalizationEngine_Response.msg
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/SetGlobalMap.srv
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/SetGlobalMap_Request.msg
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/SetGlobalMap_Response.msg
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/QueryGlobalLocalization.srv
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/QueryGlobalLocalization_Request.msg
+[12.941s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/srv/QueryGlobalLocalization_Response.msg
+[12.942s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/hdl_global_localization/hdl_global_localization_node
+[12.942s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/hdl_global_localization/hdl_global_localization_node" to ""
+[12.942s] -- Installing: /root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization_lib.so
+[12.945s] -- Set runtime path of "/root/workspace/src/install/hdl_global_localization/lib/libhdl_global_localization_lib.so" to ""
+[12.945s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/launch
+[12.945s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/launch/hdl_global_localization.launch
+[12.945s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/ament_index/resource_index/package_run_dependencies/hdl_global_localization
+[12.945s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/ament_index/resource_index/parent_prefix_path/hdl_global_localization
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/environment/ament_prefix_path.sh
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/environment/ament_prefix_path.dsv
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/environment/path.sh
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/environment/path.dsv
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/local_setup.bash
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/local_setup.sh
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/local_setup.zsh
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/local_setup.dsv
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/package.dsv
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/ament_index/resource_index/packages/hdl_global_localization
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_generator_cExport.cmake
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_generator_cExport-noconfig.cmake
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_typesupport_introspection_cExport.cmake
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_typesupport_cExport.cmake
+[12.946s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_typesupport_cExport-noconfig.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_generator_cppExport.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_typesupport_introspection_cppExport.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_typesupport_cppExport.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localization__rosidl_typesupport_cppExport-noconfig.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/ament_index/resource_index/rclcpp_components/hdl_global_localization
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/rosidl_cmake-extras.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/ament_cmake_export_libraries-extras.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/ament_cmake_export_targets-extras.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localizationConfig.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake/hdl_global_localizationConfig-version.cmake
+[12.947s] -- Installing: /root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/package.xml
+[12.949s] Invoked command in '/root/workspace/src/build/hdl_global_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/workspace/src/build/hdl_global_localization

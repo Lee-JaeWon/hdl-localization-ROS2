@@ -1,0 +1,2 @@
+hdl_localization::HdlLocalizationNodelet;lib/libhdl_localization_lib.so
+hdl_localization::GlobalmapServerNodelet;lib/libhdl_localization_lib.so

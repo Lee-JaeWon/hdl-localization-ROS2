@@ -1,0 +1,350 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+-- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI 2 disabled because libusb-1.0 not found.
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- Checking for module 'libusb-1.0'
+--   No package 'libusb-1.0' found
+-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+-- OpenNI disabled because libusb-1.0 not found.
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.10  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found ndt_omp: 0.0.0 (/root/workspace/src/install/ndt_omp/share/ndt_omp/cmake)
+-- Found fast_gicp: 0.0.0 (/root/workspace/src/install/fast_gicp/share/fast_gicp/cmake)
+-- Found hdl_global_localization: 0.0.0 (/root/workspace/src/install/hdl_global_localization/share/hdl_global_localization/cmake)
+-- PCL_INCLUDE_DIRS:/usr/include/pcl-1.10
+-- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+-- PCL_DEFINITIONS:-DDISABLE_OPENNI-DDISABLE_OPENNI2-DDISABLE_PCAP-DDISABLE_PNG-DDISABLE_LIBUSB_1_0
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/workspace/src/build/hdl_localization
+[35m[1mScanning dependencies of target hdl_localization_node[0m
+[35m[1mScanning dependencies of target hdl_localization_map_server[0m
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target hdl_localization__cpp[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/hdl_localization_map_server.dir/rclcpp_components/node_main_hdl_localization_map_server.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/hdl_localization_node.dir/rclcpp_components/node_main_hdl_localization_node.cpp.o[0m
+[35m[1mScanning dependencies of target hdl_localization__rosidl_generator_c[0m
+[ 10%] Built target hdl_localization__cpp
+[ 12%] [32mBuilding C object CMakeFiles/hdl_localization__rosidl_generator_c.dir/rosidl_generator_c/hdl_localization/msg/detail/scan_matching_status__functions.c.o[0m
+[ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 23%] [32m[1mLinking C shared library libhdl_localization__rosidl_generator_c.so[0m
+[ 23%] Built target hdl_localization__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target hdl_localization__rosidl_typesupport_cpp[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/hdl_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hdl_localization/msg/scan_matching_status__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target hdl_localization__rosidl_typesupport_fastrtps_cpp[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hdl_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hdl_localization/msg/detail/dds_fastrtps/scan_matching_status__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target hdl_localization__rosidl_typesupport_introspection_cpp[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/hdl_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hdl_localization/msg/detail/scan_matching_status__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target hdl_localization__rosidl_typesupport_c[0m
+[ 38%] [32m[1mLinking CXX shared library libhdl_localization__rosidl_typesupport_cpp.so[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/hdl_localization__rosidl_typesupport_c.dir/rosidl_typesupport_c/hdl_localization/msg/scan_matching_status__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target hdl_localization__rosidl_typesupport_introspection_c[0m
+[ 41%] Built target hdl_localization__rosidl_typesupport_cpp
+[ 43%] [32mBuilding C object CMakeFiles/hdl_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hdl_localization/msg/detail/scan_matching_status__type_support.c.o[0m
+[ 46%] [32m[1mLinking CXX shared library libhdl_localization__rosidl_typesupport_c.so[0m
+[ 46%] Built target hdl_localization__rosidl_typesupport_c
+[ 48%] [32m[1mLinking C shared library libhdl_localization__rosidl_typesupport_introspection_c.so[0m
+[ 51%] [32m[1mLinking CXX shared library libhdl_localization__rosidl_typesupport_introspection_cpp.so[0m
+[ 51%] Built target hdl_localization__rosidl_typesupport_introspection_c
+[ 51%] Built target hdl_localization__rosidl_typesupport_introspection_cpp
+[ 53%] [32m[1mLinking CXX shared library libhdl_localization__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 53%] Built target hdl_localization__rosidl_typesupport_fastrtps_cpp
+[ 56%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target hdl_localization__rosidl_typesupport_fastrtps_c[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/hdl_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hdl_localization/msg/detail/scan_matching_status__type_support_c.cpp.o[0m
+[ 61%] [32m[1mLinking CXX shared library libhdl_localization__rosidl_typesupport_fastrtps_c.so[0m
+[ 61%] Built target hdl_localization__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target hdl_localization[0m
+[ 61%] Built target hdl_localization
+[35m[1mScanning dependencies of target hdl_localization__py[0m
+[35m[1mScanning dependencies of target hdl_localization_lib[0m
+[ 64%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/hdl_localization_lib.dir/src/hdl_localization/pose_estimator.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/hdl_localization_lib.dir/apps/hdl_localization_nodelet.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/hdl_localization_lib.dir/apps/globalmap_server_nodelet.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable hdl_localization_map_server[0m
+[ 76%] [32m[1mLinking CXX executable hdl_localization_node[0m
+[ 76%] Built target hdl_localization__py
+[35m[1mScanning dependencies of target hdl_localization__python[0m
+[ 76%] Built target hdl_localization_map_server
+[ 79%] [32mBuilding C object CMakeFiles/hdl_localization__python.dir/rosidl_generator_py/hdl_localization/msg/_scan_matching_status_s.c.o[0m
+[ 79%] Built target hdl_localization_node
+[ 82%] [32m[1mLinking C shared library rosidl_generator_py/hdl_localization/libhdl_localization__python.so[0m
+[ 82%] Built target hdl_localization__python
+[35m[1mScanning dependencies of target hdl_localization__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target hdl_localization__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target hdl_localization__rosidl_typesupport_introspection_c__pyext[0m
+[ 84%] [32mBuilding C object CMakeFiles/hdl_localization__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hdl_localization/_hdl_localization_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/hdl_localization__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hdl_localization/_hdl_localization_s.ep.rosidl_typesupport_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/hdl_localization__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hdl_localization/_hdl_localization_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32m[1mLinking CXX shared library rosidl_generator_py/hdl_localization/hdl_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/hdl_localization/hdl_localization_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/hdl_localization/hdl_localization_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 97%] Built target hdl_localization__rosidl_typesupport_c__pyext
+[ 97%] Built target hdl_localization__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target hdl_localization__rosidl_typesupport_fastrtps_c__pyext
+[100%] [32m[1mLinking CXX shared library libhdl_localization_lib.so[0m
+[100%] Built target hdl_localization_lib
+-- Install configuration: ""
+-- Installing: /root/workspace/src/install/hdl_localization/share/ament_index/resource_index/rosidl_interfaces/hdl_localization
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__functions.c
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__functions.h
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__struct.h
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__type_support.h
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/scan_matching_status.h
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/environment/library_path.sh
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/environment/library_path.dsv
+-- Installing: /root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_generator_c.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_generator_c.so" to ""
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/dds_fastrtps
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__type_support.c
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__rosidl_typesupport_introspection_c.h
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_c.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__traits.hpp
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__struct.hpp
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__builder.hpp
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__type_support.hpp
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/scan_matching_status.hpp
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg
+-- Up-to-date: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/workspace/src/install/hdl_localization/include/hdl_localization/msg/detail/scan_matching_status__type_support.cpp
+-- Installing: /root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_cpp.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/libhdl_localization__rosidl_typesupport_cpp.so" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/environment/pythonpath.sh
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/environment/pythonpath.dsv
+-- Installing: /root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/__init__.py
+Compiling '/root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/__init__.py'...
+-- Installing: /root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/msg
+-- Installing: /root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/msg/__init__.py
+-- Installing: /root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/msg/_scan_matching_status_s.c
+-- Installing: /root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/msg/_scan_matching_status.py
+-- Installing: /root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/hdl_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/hdl_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/hdl_localization_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/hdl_localization_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/hdl_localization_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/python3.8/site-packages/hdl_localization/hdl_localization_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/lib/libhdl_localization__python.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/libhdl_localization__python.so" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/msg/ScanMatchingStatus.idl
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/msg/ScanMatchingStatus.msg
+-- Installing: /root/workspace/src/install/hdl_localization/lib/hdl_localization/hdl_localization_node
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/hdl_localization/hdl_localization_node" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/lib/hdl_localization/hdl_localization_map_server
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/hdl_localization/hdl_localization_map_server" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/lib/libhdl_localization_lib.so
+-- Set runtime path of "/root/workspace/src/install/hdl_localization/lib/libhdl_localization_lib.so" to ""
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/launch
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/launch/multi_hdl_localization_nav2_turtlebot.launch.py
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/launch/hdl_localization_turtlebot.launch.py
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/launch/hdl_localization_2.launch.py
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/rviz
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/rviz/hdl_localization_ros2.rviz
+-- Installing: /root/workspace/src/install/hdl_localization/share/ament_index/resource_index/package_run_dependencies/hdl_localization
+-- Installing: /root/workspace/src/install/hdl_localization/share/ament_index/resource_index/parent_prefix_path/hdl_localization
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/environment/ament_prefix_path.sh
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/environment/ament_prefix_path.dsv
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/environment/path.sh
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/environment/path.dsv
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/local_setup.bash
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/local_setup.sh
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/local_setup.zsh
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/local_setup.dsv
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/package.dsv
+-- Installing: /root/workspace/src/install/hdl_localization/share/ament_index/resource_index/packages/hdl_localization
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_generator_cExport.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_typesupport_cExport.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_generator_cppExport.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_typesupport_cppExport.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localization__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/ament_index/resource_index/rclcpp_components/hdl_localization
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/rosidl_cmake-extras.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localizationConfig.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/cmake/hdl_localizationConfig-version.cmake
+-- Installing: /root/workspace/src/install/hdl_localization/share/hdl_localization/package.xml

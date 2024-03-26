@@ -1,0 +1,3 @@
+/root/workspace/src/build/hdl_global_localization/rosidl_adapter/hdl_global_localization:srv/SetGlobalLocalizationEngine.idl
+/root/workspace/src/build/hdl_global_localization/rosidl_adapter/hdl_global_localization:srv/SetGlobalMap.idl
+/root/workspace/src/build/hdl_global_localization/rosidl_adapter/hdl_global_localization:srv/QueryGlobalLocalization.idl

@@ -1,0 +1,201 @@
+[0.010s] Invoking command in '/root/workspace/src/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/workspace/src/ndt_omp -DCMAKE_INSTALL_PREFIX=/root/workspace/src/install/ndt_omp
+[0.079s] -- The C compiler identification is GNU 9.4.0
+[0.134s] -- The CXX compiler identification is GNU 9.4.0
+[0.138s] -- Check for working C compiler: /usr/bin/cc
+[0.176s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.177s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.217s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.218s] -- Check for working CXX compiler: /usr/bin/c++
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.258s] -- Detecting CXX compiler ABI info
+[0.298s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.305s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.321s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.321s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.463s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.505s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.523s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.756s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.757s] -- Looking for pthread.h
+[0.793s] -- Looking for pthread.h - found
+[0.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.829s] -- Looking for pthread_create in pthreads
+[0.858s] -- Looking for pthread_create in pthreads - not found
+[0.858s] -- Looking for pthread_create in pthread
+[0.891s] -- Looking for pthread_create in pthread - found
+[0.891s] -- Found Threads: TRUE  
+[1.036s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.038s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.260s] -- Checking for module 'eigen3'
+[1.267s] --   Found eigen3, version 3.3.7
+[1.286s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.286s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.315s] -- Checking for module 'flann'
+[1.324s] --   Found flann, version 1.9.1
+[1.344s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.375s] -- The imported target "vtkParseOGLExt" references the file
+[1.375s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.375s] but this file does not exist.  Possible reasons include:
+[1.376s] * The file was deleted, renamed, or moved to another location.
+[1.376s] * An install or uninstall procedure did not complete successfully.
+[1.376s] * The installation package was faulty and contained
+[1.376s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.376s] but not all the files it references.
+[1.376s] 
+[1.376s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.376s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.376s] but this file does not exist.  Possible reasons include:
+[1.376s] * The file was deleted, renamed, or moved to another location.
+[1.376s] * An install or uninstall procedure did not complete successfully.
+[1.376s] * The installation package was faulty and contained
+[1.377s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.377s] but not all the files it references.
+[1.377s] 
+[1.377s] -- The imported target "vtk" references the file
+[1.377s]    "/usr/bin/vtk"
+[1.377s] but this file does not exist.  Possible reasons include:
+[1.377s] * The file was deleted, renamed, or moved to another location.
+[1.377s] * An install or uninstall procedure did not complete successfully.
+[1.377s] * The installation package was faulty and contained
+[1.377s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.377s] but not all the files it references.
+[1.377s] 
+[1.377s] -- The imported target "pvtk" references the file
+[1.377s]    "/usr/bin/pvtk"
+[1.377s] but this file does not exist.  Possible reasons include:
+[1.377s] * The file was deleted, renamed, or moved to another location.
+[1.378s] * An install or uninstall procedure did not complete successfully.
+[1.378s] * The installation package was faulty and contained
+[1.378s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.378s] but not all the files it references.
+[1.378s] 
+[1.387s] -- Checking for module 'libusb-1.0'
+[1.389s] --   No package 'libusb-1.0' found
+[1.391s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.391s] -- OpenNI disabled because libusb-1.0 not found.
+[1.394s] -- Checking for module 'libusb-1.0'
+[1.396s] --   No package 'libusb-1.0' found
+[1.398s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.398s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.408s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[1.411s] -- Checking for module 'libusb-1.0'
+[1.412s] --   No package 'libusb-1.0' found
+[1.414s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.414s] -- OpenNI disabled because libusb-1.0 not found.
+[1.416s] -- Checking for module 'libusb-1.0'
+[1.417s] --   No package 'libusb-1.0' found
+[1.419s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.419s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.429s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.429s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.431s] -- Checking for module 'libusb-1.0'
+[1.433s] --   No package 'libusb-1.0' found
+[1.434s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.434s] -- OpenNI disabled because libusb-1.0 not found.
+[1.441s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.441s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.442s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.442s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.443s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.443s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.444s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.444s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.444s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.445s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.446s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.446s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.447s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.447s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.448s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.448s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.449s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.450s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.450s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.451s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.451s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.452s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.452s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.453s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.622s] CMake Warning (dev) at CMakeLists.txt:99 (find_package):
+[1.622s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.622s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.622s]   command to set the policy and suppress this warning.
+[1.622s] 
+[1.622s]   CMake variable PCL_ROOT is set to:
+[1.622s] 
+[1.622s]     /usr
+[1.622s] 
+[1.622s]   For compatibility, CMake is ignoring the variable.
+[1.622s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.622s] 
+[1.625s] -- PCL_INCLUDE_DIRS:/usr/include/pcl-1.10
+[1.625s] -- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+[1.625s] -- PCL_DEFINITIONS:-DDISABLE_OPENNI-DDISABLE_OPENNI2-DDISABLE_PCAP-DDISABLE_PNG-DDISABLE_LIBUSB_1_0
+[1.766s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.817s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.818s] -- Found OpenMP: TRUE (found version "4.5")  
+[1.827s] -- Configuring done
+[1.899s] -- Generating done
+[1.900s] -- Build files have been written to: /root/workspace/src/build/ndt_omp
+[1.910s] Invoked command in '/root/workspace/src/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/workspace/src/ndt_omp -DCMAKE_INSTALL_PREFIX=/root/workspace/src/install/ndt_omp
+[1.912s] Invoking command in '/root/workspace/src/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/workspace/src/build/ndt_omp -- -j20 -l20
+[1.934s] [35m[1mScanning dependencies of target ndt_omp[0m
+[1.967s] [ 42%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/voxel_grid_covariance_omp.cpp.o[0m
+[1.967s] [ 42%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/ndt_omp.cpp.o[0m
+[1.967s] [ 42%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/gicp_omp.cpp.o[0m
+[13.115s] [ 57%] [32m[1mLinking CXX shared library libndt_omp.so[0m
+[15.135s] [ 57%] Built target ndt_omp
+[15.141s] [35m[1mScanning dependencies of target multigrid_ndt_omp[0m
+[15.164s] [ 85%] [32mBuilding CXX object CMakeFiles/multigrid_ndt_omp.dir/src/multigrid_pclomp/multi_voxel_grid_covariance_omp.cpp.o[0m
+[15.164s] [ 85%] [32mBuilding CXX object CMakeFiles/multigrid_ndt_omp.dir/src/multigrid_pclomp/multigrid_ndt_omp.cpp.o[0m
+[22.836s] [100%] [32m[1mLinking CXX shared library libmultigrid_ndt_omp.so[0m
+[24.094s] [100%] Built target multigrid_ndt_omp
+[24.101s] Invoked command in '/root/workspace/src/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/workspace/src/build/ndt_omp -- -j20 -l20
+[24.118s] Invoking command in '/root/workspace/src/build/ndt_omp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/workspace/src/build/ndt_omp
+[24.122s] -- Install configuration: "RELEASE"
+[24.122s] -- Installing: /root/workspace/src/install/ndt_omp/include
+[24.122s] -- Installing: /root/workspace/src/install/ndt_omp/include/pclomp
+[24.122s] -- Installing: /root/workspace/src/install/ndt_omp/include/pclomp/ndt_omp_impl.hpp
+[24.122s] -- Installing: /root/workspace/src/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/include/pclomp/gicp_omp.h
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/include/pclomp/gicp_omp_impl.hpp
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/include/pclomp/voxel_grid_covariance_omp.h
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/include/pclomp/ndt_omp.h
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/include/multigrid_pclomp
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/include/multigrid_pclomp/multi_voxel_grid_covariance_omp_impl.hpp
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/include/multigrid_pclomp/multigrid_ndt_omp_impl.hpp
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/include/multigrid_pclomp/multi_voxel_grid_covariance_omp.h
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/include/multigrid_pclomp/multigrid_ndt_omp.h
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/environment/library_path.sh
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/environment/library_path.dsv
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/lib/libndt_omp.so
+[24.123s] -- Set runtime path of "/root/workspace/src/install/ndt_omp/lib/libndt_omp.so" to ""
+[24.123s] -- Installing: /root/workspace/src/install/ndt_omp/lib/libmultigrid_ndt_omp.so
+[24.124s] -- Set runtime path of "/root/workspace/src/install/ndt_omp/lib/libmultigrid_ndt_omp.so" to ""
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ament_index/resource_index/package_run_dependencies/ndt_omp
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ament_index/resource_index/parent_prefix_path/ndt_omp
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.sh
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/environment/ament_prefix_path.dsv
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/environment/path.sh
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/environment/path.dsv
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/local_setup.bash
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/local_setup.sh
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/local_setup.zsh
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/local_setup.dsv
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/package.dsv
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ament_index/resource_index/packages/ndt_omp
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/cmake/ament_cmake_export_libraries-extras.cmake
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig.cmake
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/cmake/ndt_ompConfig-version.cmake
+[24.124s] -- Installing: /root/workspace/src/install/ndt_omp/share/ndt_omp/package.xml
+[24.126s] Invoked command in '/root/workspace/src/build/ndt_omp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/workspace/src/build/ndt_omp
